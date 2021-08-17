@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1024px) {
+  nav {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  .navbar ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar ul li a {
+    color: var(--head-text-color);
+  }
+  .logo {
+    display: none;
+  }
+  .desc {
+    margin-left: 2rem;
+  }
+  #about {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .about-us {
+    flex-direction: column;
+  }
+  .about-image img {
+    width: 100%;
+  }
+
+  .description p {
+    margin-left: 0;
+  }
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .ports {
+    display: flex;
+    flex-direction: column;
+  }
+  .port img {
+    width: 300px;
+  }
+  aside .biodata {
+    flex-direction: column;
+  }
+  aside .biodata img {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  .biodata ul {
+    margin-left: 0;
+  }
+}
